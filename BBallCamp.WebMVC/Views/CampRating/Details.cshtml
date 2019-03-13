@@ -1,0 +1,53 @@
+﻿@model BBallCamp.Models.CampRatingModels.CampRatingDetails
+
+@{
+    ViewBag.Title = "Details";
+}
+<div id="rater-index">
+
+<h2>Rating Details</h2>
+
+<div>
+    
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CampName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CampName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.OverallRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OverallRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ActivityRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ActivityRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoachingRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoachingRating)
+        </dd>
+
+        
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Back to List", "Index")
+</p>
+</div>

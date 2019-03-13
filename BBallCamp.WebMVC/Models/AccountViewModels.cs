@@ -8,6 +8,7 @@ namespace BBallCamp.WebMVC.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        public string Username { get; internal set; }
     }
 
     public class ExternalLoginListViewModel
