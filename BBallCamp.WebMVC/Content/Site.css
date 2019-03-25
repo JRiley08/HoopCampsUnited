@@ -1,7 +1,11 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url(Assets/Hoop%20Background%203.jpeg);
+    background-size:cover;
+    
 }
+
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
@@ -22,3 +26,36 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.jumbotron {
+    background-color: transparent;
+    text-align:center;
+    margin-top: 80px;
+    color:goldenrod;
+    font-family:'Mongolian Baiti',sans-serif;
+    
+    
+}
+.jumbotron h1{
+    font-family: 'Segoe UI Emoji','Times New Roman', Times, serif
+}
+
+.navbar {
+    background-color:goldenrod;
+}
+
+.navbar-header h2{
+    color: silver;
+    font-size: 25px;
+    margin-left: -75px;
+
+}
+
+#Home {
+    background-color: goldenrod;
+    padding: 10px, 10px, 10px, 10px;
+    margin-top: 20px;
+    border: 1px solid silver;
+}
+
+
